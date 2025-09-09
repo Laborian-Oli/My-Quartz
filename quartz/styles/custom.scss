@@ -1,3 +1,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* 修改普通链接 */
+a {
+  color: #1e90ff;   /* 默认文字颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+/* 鼠标悬停时 */
+a:hover {
+  color: #ff6600;   /* 悬停时换色 */
+  text-decoration: underline; /* 悬停显示下划线 */
+}
+
